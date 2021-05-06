@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="hidden absolute-pos">
+  <h1>Welcome to Star Social!</h1>
+  <div class="jumbotron my-color">
+      <h1>Create Groups</h1>
+      <h1>Post Messages</h1>
+      <h1>Invite Friends</h1>
+  </div>
+</div>
+<canvas id="canvas"></canvas>
+    <script type="text/javascript" src="{% static 'simplesocial/js/master.js' %}">
+    </script>
+{% endblock %}
